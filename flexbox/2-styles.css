@@ -374,6 +374,10 @@
 
   /* Section Latest news ============================= */
 
+  .section-latest-news {
+    flex-direction: row-reverse;
+  }
+  
     .row {
     flex-direction: row-reverse;
   }

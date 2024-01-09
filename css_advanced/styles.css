@@ -1,15 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap');
+/* /* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap'); */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Source Sans 3', sans-serif;
-    list-style: none;
+    list-style: none; */
 }
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+html {
+scroll-behavior: smooth;
+}
+
 header {
     background-image: url(images/Object.png);
     height: 1053px;
-    width: 75vw;
 }
 .header{
     padding-left: 100px;
@@ -125,7 +134,7 @@ header {
 .person-name {
     display: flex;
     padding-left: 300px;
-    margin-top: 100px;
+    margin-top: 80px;
     background-color: #c271ff;
     color: #fff;
 
@@ -135,7 +144,8 @@ header {
     border-radius: 100%;
 }
 .person-name p {
-    padding-left: 45px;
+    /* display: flex; */
+    padding-left: 35px;
     margin-top: 5%;
 }
 .tutorials {

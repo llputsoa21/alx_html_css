@@ -1,25 +1,44 @@
-.holberton_school-icon-ic_hearing:before {
-    content: "\e909";
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
-  .holberton_school-icon-ic_music:before {
-    content: "\e90d";
-  }
-  .holberton_school-icon-ic_sound:before {
-    content: "\e90e";
-  }
-  .holberton_school-icon-ic_video:before {
-    content: "\e910";
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  a:hover {
-    background-color: darkgreen;
+  .nav {
+    padding: 0 100px;
+  }
+
+  .paragraphs {
+    text-align: center;
+    margin: 200px;
   }
 
   .hero{
-    background-image: url('headphones/images/headphones_hero_1.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    background-image: url('./images/headphones_hero_1.jpg');
+    /* background-repeat: no-repeat; */
+    height: 800px;
+    width: 100%;
+    color: white;
+  }
+
+  .bigger-section {
+    padding: 0 100px;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style: none;
+  }
+
+  .nav-list a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
   }
 
   .button {
@@ -36,3 +55,27 @@
     background: #FF6565;
     border-radius: 22px
   }
+
+  .our-results-section {
+    display: flex;
+  }
+
+  .ipsum {
+    display: flex;
+    background-color: #FF6565;
+  }
+
+  .part-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  .what_we_do_before_icons {
+    text-align: center;
+    margin-top: 100px;
+  }
+  

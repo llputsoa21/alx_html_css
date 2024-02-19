@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Feedback Form</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <h2>Feedback Form</h2>
+
+    <form  method="post" >
+        <div>
+          <label >Name:</label>
+          <input type="text"  name="name" required>
+        </div>
+        <div>
+          <label >Email:</label>
+          <input type="email"  name="email" required>
+        </div>
+        <div>
+          <label>Feedback:</label><br>
+          <input type="checkbox" name="feedback" value="Dissatisfied">
+          <label >Dissatisfied</label><br>
+          <input type="checkbox"  name="feedback" value="Neutral">
+          <label >Neutral</label><br>
+          <input type="checkbox"  name="feedback" value="Satisfied">
+          <label >Satisfied</label><br>
+          <input type="checkbox"  name="feedback" value="Very Satisfied">
+          <label >Very Satisfied</label><br>
+        </div>
+        <div>
+          <label >Upload File:</label>
+          <input type="file"  name="file" required>
+        </div>
+        <div>
+          <button type="submit">Submit Feedback</button>
+        </div>
+      </form>
+</body>
+</html>

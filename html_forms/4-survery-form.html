@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Syrvey Form</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <h2>Survey Form</h2>
+
+    <form  method="post" >
+        <div>
+          <label >Name:</label>
+          <input type="text"  name="name" required>
+        </div>
+        <div>
+          <label >Email:</label>
+          <input type="email"  name="email" required>
+        </div>
+        <div>
+          <label>Favourite Color</label>
+        <select name="Color" required>
+            <option value="Yellow">Yellow</option>
+            <option value="Grey">Grey</option>
+            <option value="Orange">Orange</option>
+        </select>
+        </div>
+        <div>
+          <label >Time:</label>
+          <input type="time"  name="time" required>
+          <label >Date:</label>
+          <input type="date"  name="date" required>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+</body>
+</html>
